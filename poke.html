@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Siyuan Su | Poke Stone</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Siyuan Su</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About Me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Poke Stone</h1>
+							<p>This is a group project of DH2642 Interaction Programming and the Dynamic Web. The game "Poke Stone" draws inspiration from the card game Hearthstone where two players battle with a deck of cards, while the environment and decks in this game are based on the Pokémon universe, and <a href="https://pokeapi.co/docs/v2" target="_blank">PokeAPI</a> is utilized. The game is developed using <a href="https://reactjs.org/" target="_blank">React</a> and <a href="https://redux.js.org/" target="_blank">Redux</a>, and deployed on Firebase, where the game log data is also stored, retrieved, and displayed on the website. In the project, we use Git for version control and collaboration.</p>
+							<span class="image main"><img src="images/poke/teaser.jpg" alt="" /></span>
+							<section>
+								<h2>How to play</h2>
+								<p>
+									First, the player comes to a Welcome page where they can choose the one-player mode to play against the computer or the two-player mode to play with a friend. Then the player needs to enter a nickname and start choosing the poke card to construct their battle deck. Eight cards are required to complete a deck. Each card is represented by a unique Pokémon with one or more types and four randomly assigned attacks which is also of a certain type, all the data are fetched from <a href="https://pokeapi.co/docs/v2" target="_blank">PokeAPI</a>. Players can see this information on the card by hovering over the card to see more details of the card. If it is a battle between one player and the computer, the computer is assigned a randomly created deck.
+								</p>
+								<p>
+									Once the player(s) completed their card selection, they will be sent to the arena and the battle starts. Player One need to deploy their first card to fight. When a card is deployed, its properties become visual to the player, which consists of Strength, HP(Health Points), Defense, and the four attacks assigned to the card. Each attack has three properties: type, PP(how many times the attack can be used), and Power. Players take turns attacking and damaging their opponent.
+								</p>
+								<p>
+									The damage on the opponent card's HP is calculated based on the attack properties and the opponent's properties. Therefore,  players should choose cards and attacks wisely based on the type of their opponent's cards. When the HP of a Poke Card is zero or below zero, it is defeated and the player needs to deploy another card. A player wins when all eight cards of the opponent are defeated. Then the game ends and the battle log is sent to Firebase and will be shown in the game log tab on the website.
+								</p>
+								<p>Game link: <br/>
+									<a href="https://pokemon-card-game-e8f1a.firebaseapp.com/" target="_blank" >https://pokemon-card-game-e8f1a.firebaseapp.com/</a>
+								</p>
+							</section>
+							<section>
+								<h2>Prototype</h2>
+								<div class="row">
+									<div class="col-6 col-12-medium">
+										<span class="image fit"><img src="images/poke/architecture.jpg" alt="" /></span>
+									</div>
+									<div class="col-6 col-12-medium">
+										<span class="image fit"><img src="images/poke/prototype.png" alt="" /></span>
+									</div>
+								</div>
+							</section>
+							<hr>
+							<section>
+								<h2>Contribution</h2>
+								<p>This is a group project I cooperated with three other KTH students. In this project, I mainly contributed to prototyping, and frontend development.</p>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/siyuan-su-kth/" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="mailto: siyuan.su@outlook.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; 2022 Siyuan Su. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
