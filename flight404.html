@@ -48,10 +48,24 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Flight 404</h1>
+							<p>As part of a course in Information Visualization, we collaborated with the FLIGHT research team to visualize KTH aviation-related carbon emissions throughout a calendar year. The visualization consists of a selection wheel (left) and a carbon calendar (right). The visualization website is developed with HTML, CSS, JavaScript, and D3.js.</p>
 							<span class="image main"><img src="images/flight404/teaser.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<section>
+								<h2>How to use</h2>
+								<p>The Selection wheel on the left allows navigation through the levels of the KTH hierarchy (i.e. university, schools, departments, individual staff). By toggling the "Compare mode "button, users can select and compare carbon emission patterns between constituents on the same level (up to 5 entities). By switching options in "Change size for selection", sections of the wheel can be proportioned based on the amount of carbon emission for the year, but also the number of employees, number of flights, and distance traveled.</p>
+							</section>
+							<section>
+								<h2>What is carbon calendar</h2>
+								<p>The data used in the visualization was gathered by the travel agency that KTH uses and consists of the flights booked by KTH staff in 2019 for business purposes. We processed data and calculated the tonnes of CO2 emitted per day for individual trips (i.e. the date of departure from Stockholm, Sweden until the date of return). The values are divided by the durations of the trips and then aggregated into data points of tonnes of CO2 per day. The resulting calculations are mapped to the Carbon Calendar, which wraps the time series around a circle instead of a typical horizontal display. Since the metric is calculated by dividing the total amount of carbon emitted during a trip by the total duration of that trip, users can identify carbon “inefficiencies” (e.g. a long-distance trip that only lasted a day or two).</p>
+							</section>
+							<section>
+								<h2>Video Demo</h2>
+								<iframe class="video" src="https://www.youtube.com/embed/Amd407uSkPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</section>
+							<section>
+								<h2>Contribution</h2>
+								<p>This is a group project I cooperated with six other KTH students. In this project, I mainly contributed to UX design, front-end development, and demo video editing.</p>
+							</section>
 						</div>
 					</div>
 
@@ -64,6 +78,9 @@
 									<li><a href="https://www.linkedin.com/in/siyuan-su-kth/" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="mailto: siyuan.su@outlook.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
+							</section>
+							<section>
+								<a href="#" class="button primary toTop"><i class="fas fa-arrow-up"></i></a>
 							</section>
 							<ul class="copyright">
 								<li>&copy; 2022 Siyuan Su. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
